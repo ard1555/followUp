@@ -1,0 +1,665 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9CE438C36BA0934CB7D79446 /* libPods-Social Connecting App.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FBF4D572B1BE70439B004314 /* libPods-Social Connecting App.a */; };
+		B720B2DA1DDAE33E00EED705 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B720B2D91DDAE33E00EED705 /* FirstViewController.swift */; };
+		B72D1DA51E2C1DB5001AA343 /* OpenSocialPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72D1DA41E2C1DB5001AA343 /* OpenSocialPageViewController.swift */; };
+		B73025F71E3487D70080724C /* OpenSocialPageViewControllerWebKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73025F61E3487D70080724C /* OpenSocialPageViewControllerWebKit.swift */; };
+		B759C5151DC32C7500538686 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B759C5141DC32C7500538686 /* AppDelegate.swift */; };
+		B759C51E1DC32C7500538686 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B759C51C1DC32C7500538686 /* Main.storyboard */; };
+		B759C5201DC32C7500538686 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B759C51F1DC32C7500538686 /* Assets.xcassets */; };
+		B759C5231DC32C7500538686 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B759C5211DC32C7500538686 /* LaunchScreen.storyboard */; };
+		B759C52E1DC32C7500538686 /* Social_Connecting_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B759C52D1DC32C7500538686 /* Social_Connecting_AppTests.swift */; };
+		B759C5391DC32C7500538686 /* Social_Connecting_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B759C5381DC32C7500538686 /* Social_Connecting_AppUITests.swift */; };
+		B772BD4C1E275BAE0039FBFE /* AddAccountsTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B772BD4B1E275BAE0039FBFE /* AddAccountsTableController.swift */; };
+		B7C0E1461DE3BEBD00830FC8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B7C0E1451DE3BEBD00830FC8 /* GoogleService-Info.plist */; };
+		B7F9F07C1DDAD30100677807 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F9F07B1DDAD30100677807 /* LoginViewController.swift */; };
+		B7F9F07E1DDAD32700677807 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F9F07D1DDAD32700677807 /* SignUpViewController.swift */; };
+		B7F9F0801DDAD33500677807 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F9F07F1DDAD33500677807 /* ForgotPasswordViewController.swift */; };
+		B7F9F0821DDAD34400677807 /* SignUpSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F9F0811DDAD34400677807 /* SignUpSecondViewController.swift */; };
+		B7F9F0841DDAD35300677807 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F9F0831DDAD35300677807 /* SearchViewController.swift */; };
+		B7F9F0861DDAD36200677807 /* RecentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F9F0851DDAD36200677807 /* RecentsViewController.swift */; };
+		B7F9F0881DDAD36F00677807 /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F9F0871DDAD36F00677807 /* ScanViewController.swift */; };
+		B7F9F08A1DDAD37C00677807 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F9F0891DDAD37C00677807 /* SettingViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B759C52A1DC32C7500538686 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B759C5091DC32C7500538686 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B759C5101DC32C7500538686;
+			remoteInfo = "Social Connecting App";
+		};
+		B759C5351DC32C7500538686 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B759C5091DC32C7500538686 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B759C5101DC32C7500538686;
+			remoteInfo = "Social Connecting App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B1DC584B55AB3AE121067291 /* Pods-Social Connecting App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Social Connecting App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Social Connecting App/Pods-Social Connecting App.release.xcconfig"; sourceTree = "<group>"; };
+		B720B2D91DDAE33E00EED705 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		B72D1DA41E2C1DB5001AA343 /* OpenSocialPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenSocialPageViewController.swift; sourceTree = "<group>"; };
+		B73025F61E3487D70080724C /* OpenSocialPageViewControllerWebKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenSocialPageViewControllerWebKit.swift; sourceTree = "<group>"; };
+		B759C5111DC32C7500538686 /* Social Connecting App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Social Connecting App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B759C5141DC32C7500538686 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B759C51D1DC32C7500538686 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B759C51F1DC32C7500538686 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B759C5221DC32C7500538686 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B759C5241DC32C7500538686 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B759C5291DC32C7500538686 /* Social Connecting AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Social Connecting AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B759C52D1DC32C7500538686 /* Social_Connecting_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Social_Connecting_AppTests.swift; sourceTree = "<group>"; };
+		B759C52F1DC32C7500538686 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B759C5341DC32C7500538686 /* Social Connecting AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Social Connecting AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B759C5381DC32C7500538686 /* Social_Connecting_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Social_Connecting_AppUITests.swift; sourceTree = "<group>"; };
+		B759C53A1DC32C7500538686 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B772BD4B1E275BAE0039FBFE /* AddAccountsTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddAccountsTableController.swift; sourceTree = "<group>"; };
+		B7C0E1451DE3BEBD00830FC8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B7F9F07B1DDAD30100677807 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B7F9F07D1DDAD32700677807 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		B7F9F07F1DDAD33500677807 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		B7F9F0811DDAD34400677807 /* SignUpSecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpSecondViewController.swift; sourceTree = "<group>"; };
+		B7F9F0831DDAD35300677807 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		B7F9F0851DDAD36200677807 /* RecentsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecentsViewController.swift; sourceTree = "<group>"; };
+		B7F9F0871DDAD36F00677807 /* ScanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanViewController.swift; sourceTree = "<group>"; };
+		B7F9F0891DDAD37C00677807 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		BC2AF64DED0ECB164E6494D7 /* Pods-Social Connecting App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Social Connecting App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Social Connecting App/Pods-Social Connecting App.debug.xcconfig"; sourceTree = "<group>"; };
+		FBF4D572B1BE70439B004314 /* libPods-Social Connecting App.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Social Connecting App.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B759C50E1DC32C7500538686 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CE438C36BA0934CB7D79446 /* libPods-Social Connecting App.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B759C5261DC32C7500538686 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B759C5311DC32C7500538686 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F5BB9D82FB667DFB37FDA10 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC2AF64DED0ECB164E6494D7 /* Pods-Social Connecting App.debug.xcconfig */,
+				B1DC584B55AB3AE121067291 /* Pods-Social Connecting App.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3DFC9CC02D2FD602BB7D0A97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FBF4D572B1BE70439B004314 /* libPods-Social Connecting App.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B759C5081DC32C7500538686 = {
+			isa = PBXGroup;
+			children = (
+				B759C5131DC32C7500538686 /* Social Connecting App */,
+				B759C52C1DC32C7500538686 /* Social Connecting AppTests */,
+				B759C5371DC32C7500538686 /* Social Connecting AppUITests */,
+				B759C5121DC32C7500538686 /* Products */,
+				0F5BB9D82FB667DFB37FDA10 /* Pods */,
+				3DFC9CC02D2FD602BB7D0A97 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B759C5121DC32C7500538686 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B759C5111DC32C7500538686 /* Social Connecting App.app */,
+				B759C5291DC32C7500538686 /* Social Connecting AppTests.xctest */,
+				B759C5341DC32C7500538686 /* Social Connecting AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B759C5131DC32C7500538686 /* Social Connecting App */ = {
+			isa = PBXGroup;
+			children = (
+				B759C5141DC32C7500538686 /* AppDelegate.swift */,
+				B7F9F08D1DDAD3B800677807 /* Workings */,
+				B7F9F08C1DDAD39D00677807 /* SignIn */,
+				B759C51C1DC32C7500538686 /* Main.storyboard */,
+				B759C5211DC32C7500538686 /* LaunchScreen.storyboard */,
+				B759C51F1DC32C7500538686 /* Assets.xcassets */,
+				B759C5241DC32C7500538686 /* Info.plist */,
+				B7C0E1451DE3BEBD00830FC8 /* GoogleService-Info.plist */,
+			);
+			path = "Social Connecting App";
+			sourceTree = "<group>";
+		};
+		B759C52C1DC32C7500538686 /* Social Connecting AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				B759C52D1DC32C7500538686 /* Social_Connecting_AppTests.swift */,
+				B759C52F1DC32C7500538686 /* Info.plist */,
+			);
+			path = "Social Connecting AppTests";
+			sourceTree = "<group>";
+		};
+		B759C5371DC32C7500538686 /* Social Connecting AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B759C5381DC32C7500538686 /* Social_Connecting_AppUITests.swift */,
+				B759C53A1DC32C7500538686 /* Info.plist */,
+			);
+			path = "Social Connecting AppUITests";
+			sourceTree = "<group>";
+		};
+		B7F9F08C1DDAD39D00677807 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				B7F9F07B1DDAD30100677807 /* LoginViewController.swift */,
+				B7F9F07F1DDAD33500677807 /* ForgotPasswordViewController.swift */,
+				B7F9F07D1DDAD32700677807 /* SignUpViewController.swift */,
+				B7F9F0811DDAD34400677807 /* SignUpSecondViewController.swift */,
+			);
+			name = SignIn;
+			sourceTree = "<group>";
+		};
+		B7F9F08D1DDAD3B800677807 /* Workings */ = {
+			isa = PBXGroup;
+			children = (
+				B720B2D91DDAE33E00EED705 /* FirstViewController.swift */,
+				B7F9F0831DDAD35300677807 /* SearchViewController.swift */,
+				B7F9F0851DDAD36200677807 /* RecentsViewController.swift */,
+				B7F9F0871DDAD36F00677807 /* ScanViewController.swift */,
+				B7F9F0891DDAD37C00677807 /* SettingViewController.swift */,
+				B772BD4B1E275BAE0039FBFE /* AddAccountsTableController.swift */,
+				B72D1DA41E2C1DB5001AA343 /* OpenSocialPageViewController.swift */,
+				B73025F61E3487D70080724C /* OpenSocialPageViewControllerWebKit.swift */,
+			);
+			name = Workings;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B759C5101DC32C7500538686 /* Social Connecting App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B759C53D1DC32C7500538686 /* Build configuration list for PBXNativeTarget "Social Connecting App" */;
+			buildPhases = (
+				EA0F2ECE613CEF175BB22615 /* [CP] Check Pods Manifest.lock */,
+				B759C50D1DC32C7500538686 /* Sources */,
+				B759C50E1DC32C7500538686 /* Frameworks */,
+				B759C50F1DC32C7500538686 /* Resources */,
+				8E9A54D5BE485CA100BD07DC /* [CP] Embed Pods Frameworks */,
+				F1A22D4047D2ECA5D70E2D43 /* [CP] Copy Pods Resources */,
+				B73CCD9E1E09DC67008F9528 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Social Connecting App";
+			productName = "Social Connecting App";
+			productReference = B759C5111DC32C7500538686 /* Social Connecting App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B759C5281DC32C7500538686 /* Social Connecting AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B759C5401DC32C7500538686 /* Build configuration list for PBXNativeTarget "Social Connecting AppTests" */;
+			buildPhases = (
+				B759C5251DC32C7500538686 /* Sources */,
+				B759C5261DC32C7500538686 /* Frameworks */,
+				B759C5271DC32C7500538686 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B759C52B1DC32C7500538686 /* PBXTargetDependency */,
+			);
+			name = "Social Connecting AppTests";
+			productName = "Social Connecting AppTests";
+			productReference = B759C5291DC32C7500538686 /* Social Connecting AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B759C5331DC32C7500538686 /* Social Connecting AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B759C5431DC32C7500538686 /* Build configuration list for PBXNativeTarget "Social Connecting AppUITests" */;
+			buildPhases = (
+				B759C5301DC32C7500538686 /* Sources */,
+				B759C5311DC32C7500538686 /* Frameworks */,
+				B759C5321DC32C7500538686 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B759C5361DC32C7500538686 /* PBXTargetDependency */,
+			);
+			name = "Social Connecting AppUITests";
+			productName = "Social Connecting AppUITests";
+			productReference = B759C5341DC32C7500538686 /* Social Connecting AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B759C5091DC32C7500538686 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Akash Dharamshi";
+				TargetAttributes = {
+					B759C5101DC32C7500538686 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					B759C5281DC32C7500538686 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B759C5101DC32C7500538686;
+					};
+					B759C5331DC32C7500538686 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B759C5101DC32C7500538686;
+					};
+				};
+			};
+			buildConfigurationList = B759C50C1DC32C7500538686 /* Build configuration list for PBXProject "Social Connecting App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B759C5081DC32C7500538686;
+			productRefGroup = B759C5121DC32C7500538686 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B759C5101DC32C7500538686 /* Social Connecting App */,
+				B759C5281DC32C7500538686 /* Social Connecting AppTests */,
+				B759C5331DC32C7500538686 /* Social Connecting AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B759C50F1DC32C7500538686 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B759C5231DC32C7500538686 /* LaunchScreen.storyboard in Resources */,
+				B7C0E1461DE3BEBD00830FC8 /* GoogleService-Info.plist in Resources */,
+				B759C5201DC32C7500538686 /* Assets.xcassets in Resources */,
+				B759C51E1DC32C7500538686 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B759C5271DC32C7500538686 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B759C5321DC32C7500538686 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8E9A54D5BE485CA100BD07DC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Social Connecting App/Pods-Social Connecting App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B73CCD9E1E09DC67008F9528 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" a1f8983909b47801028469be06ad066753460b6e 1db85591afd750d5371ff6446ec5547956760bfd0923b219607b7937294107f9\n";
+		};
+		EA0F2ECE613CEF175BB22615 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F1A22D4047D2ECA5D70E2D43 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Social Connecting App/Pods-Social Connecting App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B759C50D1DC32C7500538686 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7F9F0821DDAD34400677807 /* SignUpSecondViewController.swift in Sources */,
+				B7F9F08A1DDAD37C00677807 /* SettingViewController.swift in Sources */,
+				B7F9F07C1DDAD30100677807 /* LoginViewController.swift in Sources */,
+				B720B2DA1DDAE33E00EED705 /* FirstViewController.swift in Sources */,
+				B73025F71E3487D70080724C /* OpenSocialPageViewControllerWebKit.swift in Sources */,
+				B7F9F0841DDAD35300677807 /* SearchViewController.swift in Sources */,
+				B772BD4C1E275BAE0039FBFE /* AddAccountsTableController.swift in Sources */,
+				B72D1DA51E2C1DB5001AA343 /* OpenSocialPageViewController.swift in Sources */,
+				B7F9F0861DDAD36200677807 /* RecentsViewController.swift in Sources */,
+				B7F9F0801DDAD33500677807 /* ForgotPasswordViewController.swift in Sources */,
+				B7F9F0881DDAD36F00677807 /* ScanViewController.swift in Sources */,
+				B759C5151DC32C7500538686 /* AppDelegate.swift in Sources */,
+				B7F9F07E1DDAD32700677807 /* SignUpViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B759C5251DC32C7500538686 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B759C52E1DC32C7500538686 /* Social_Connecting_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B759C5301DC32C7500538686 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B759C5391DC32C7500538686 /* Social_Connecting_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B759C52B1DC32C7500538686 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B759C5101DC32C7500538686 /* Social Connecting App */;
+			targetProxy = B759C52A1DC32C7500538686 /* PBXContainerItemProxy */;
+		};
+		B759C5361DC32C7500538686 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B759C5101DC32C7500538686 /* Social Connecting App */;
+			targetProxy = B759C5351DC32C7500538686 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B759C51C1DC32C7500538686 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B759C51D1DC32C7500538686 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B759C5211DC32C7500538686 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B759C5221DC32C7500538686 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B759C53B1DC32C7500538686 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B759C53C1DC32C7500538686 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B759C53E1DC32C7500538686 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC2AF64DED0ECB164E6494D7 /* Pods-Social Connecting App.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Social Connecting App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AkashDharamshi.Social-Connecting-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B759C53F1DC32C7500538686 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1DC584B55AB3AE121067291 /* Pods-Social Connecting App.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Social Connecting App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AkashDharamshi.Social-Connecting-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B759C5411DC32C7500538686 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Social Connecting AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AkashDharamshi.Social-Connecting-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Social Connecting App.app/Social Connecting App";
+			};
+			name = Debug;
+		};
+		B759C5421DC32C7500538686 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Social Connecting AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AkashDharamshi.Social-Connecting-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Social Connecting App.app/Social Connecting App";
+			};
+			name = Release;
+		};
+		B759C5441DC32C7500538686 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Social Connecting AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AkashDharamshi.Social-Connecting-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Social Connecting App";
+			};
+			name = Debug;
+		};
+		B759C5451DC32C7500538686 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Social Connecting AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AkashDharamshi.Social-Connecting-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Social Connecting App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B759C50C1DC32C7500538686 /* Build configuration list for PBXProject "Social Connecting App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B759C53B1DC32C7500538686 /* Debug */,
+				B759C53C1DC32C7500538686 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B759C53D1DC32C7500538686 /* Build configuration list for PBXNativeTarget "Social Connecting App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B759C53E1DC32C7500538686 /* Debug */,
+				B759C53F1DC32C7500538686 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B759C5401DC32C7500538686 /* Build configuration list for PBXNativeTarget "Social Connecting AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B759C5411DC32C7500538686 /* Debug */,
+				B759C5421DC32C7500538686 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B759C5431DC32C7500538686 /* Build configuration list for PBXNativeTarget "Social Connecting AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B759C5441DC32C7500538686 /* Debug */,
+				B759C5451DC32C7500538686 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B759C5091DC32C7500538686 /* Project object */;
+}
