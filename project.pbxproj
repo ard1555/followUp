@@ -7,18 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9CE438C36BA0934CB7D79446 /* libPods-Social Connecting App.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FBF4D572B1BE70439B004314 /* libPods-Social Connecting App.a */; };
-		B720B2DA1DDAE33E00EED705 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B720B2D91DDAE33E00EED705 /* FirstViewController.swift */; };
-		B72D1DA51E2C1DB5001AA343 /* OpenSocialPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72D1DA41E2C1DB5001AA343 /* OpenSocialPageViewController.swift */; };
+		975DD73A710B5BBE1CBA085E /* Pods_Social_Connecting_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06D212BEF8B508FB5044D991 /* Pods_Social_Connecting_App.framework */; };
+		B7104AFF2057B10300F4BBD6 /* APIcalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7104AFE2057B10300F4BBD6 /* APIcalls.swift */; };
+		B71FE04D212116D300040368 /* infoInputViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71FE04C212116D300040368 /* infoInputViewViewController.swift */; };
+		B720B2DA1DDAE33E00EED705 /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B720B2D91DDAE33E00EED705 /* UserProfileViewController.swift */; };
+		B72CC3791EA8925A00EAC594 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = B72CC3781EA8925A00EAC594 /* iCarousel.m */; };
 		B73025F71E3487D70080724C /* OpenSocialPageViewControllerWebKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73025F61E3487D70080724C /* OpenSocialPageViewControllerWebKit.swift */; };
+		B73EA7411F17A6EA00016D59 /* SocialAddCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73EA7401F17A6EA00016D59 /* SocialAddCollectionView.swift */; };
+		B73EA7431F17A7B600016D59 /* SocialMediaCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73EA7421F17A7B600016D59 /* SocialMediaCollectionCell.swift */; };
+		B74083001EF494070089DEA0 /* CustomizableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74082FF1EF494070089DEA0 /* CustomizableButton.swift */; };
+		B75647B120321E5300141D48 /* CenterCellCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75647B020321E5300141D48 /* CenterCellCollectionViewFlowLayout.swift */; };
 		B759C5151DC32C7500538686 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B759C5141DC32C7500538686 /* AppDelegate.swift */; };
 		B759C51E1DC32C7500538686 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B759C51C1DC32C7500538686 /* Main.storyboard */; };
 		B759C5201DC32C7500538686 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B759C51F1DC32C7500538686 /* Assets.xcassets */; };
 		B759C5231DC32C7500538686 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B759C5211DC32C7500538686 /* LaunchScreen.storyboard */; };
 		B759C52E1DC32C7500538686 /* Social_Connecting_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B759C52D1DC32C7500538686 /* Social_Connecting_AppTests.swift */; };
 		B759C5391DC32C7500538686 /* Social_Connecting_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B759C5381DC32C7500538686 /* Social_Connecting_AppUITests.swift */; };
-		B772BD4C1E275BAE0039FBFE /* AddAccountsTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B772BD4B1E275BAE0039FBFE /* AddAccountsTableController.swift */; };
+		B775553820CDAA6900308096 /* linkedin-sdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B775553720CDAA6900308096 /* linkedin-sdk.framework */; };
+		B78F79EE210BA23600820701 /* cardInfoInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78F79ED210BA23600820701 /* cardInfoInput.swift */; };
+		B795F56B1E7639BC0055D3DD /* CodeReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B795F56A1E7639BC0055D3DD /* CodeReaderViewController.swift */; };
+		B795F56D1E76DF3D0055D3DD /* SliderHandlerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B795F56C1E76DF3D0055D3DD /* SliderHandlerViewController.swift */; };
 		B7C0E1461DE3BEBD00830FC8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B7C0E1451DE3BEBD00830FC8 /* GoogleService-Info.plist */; };
+		B7CC07F21F2FD75B00631E40 /* SocialInfoBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CC07F11F2FD75B00631E40 /* SocialInfoBrain.swift */; };
+		B7F7A2F020105B6A0086F940 /* SliderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F7A2EF20105B6A0086F940 /* SliderCollectionViewCell.swift */; };
 		B7F9F07C1DDAD30100677807 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F9F07B1DDAD30100677807 /* LoginViewController.swift */; };
 		B7F9F07E1DDAD32700677807 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F9F07D1DDAD32700677807 /* SignUpViewController.swift */; };
 		B7F9F0801DDAD33500677807 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F9F07F1DDAD33500677807 /* ForgotPasswordViewController.swift */; };
@@ -27,6 +38,13 @@
 		B7F9F0861DDAD36200677807 /* RecentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F9F0851DDAD36200677807 /* RecentsViewController.swift */; };
 		B7F9F0881DDAD36F00677807 /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F9F0871DDAD36F00677807 /* ScanViewController.swift */; };
 		B7F9F08A1DDAD37C00677807 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F9F0891DDAD37C00677807 /* SettingViewController.swift */; };
+		B7FD2C691EF264C200CF7B68 /* NetworkSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FD2C681EF264C200CF7B68 /* NetworkSettings.swift */; };
+		B7FD2C6B1EF2698300CF7B68 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FD2C6A1EF2698300CF7B68 /* UserModel.swift */; };
+		B7FD2C6D1EF2784100CF7B68 /* SCAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FD2C6C1EF2784100CF7B68 /* SCAlertView.swift */; };
+		B7FD2C6F1EF2786700CF7B68 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FD2C6E1EF2786700CF7B68 /* Extensions.swift */; };
+		B7FD2C731EF279B700CF7B68 /* CustomizableTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FD2C721EF279B700CF7B68 /* CustomizableTextfield.swift */; };
+		B7FD2C751EF282C400CF7B68 /* CustomizableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FD2C741EF282C400CF7B68 /* CustomizableImageView.swift */; };
+		FE1A1937803D45333E81143B /* Pods_Social_Connecting_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 762578E8F465332B78034AC8 /* Pods_Social_Connecting_AppTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,10 +65,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06D212BEF8B508FB5044D991 /* Pods_Social_Connecting_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Social_Connecting_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E91239F284DBB250078FB5D /* Pods-Social Connecting AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Social Connecting AppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Social Connecting AppTests/Pods-Social Connecting AppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		39F45547E9CF49362D8D78D0 /* Pods-Social Connecting AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Social Connecting AppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Social Connecting AppTests/Pods-Social Connecting AppTests.release.xcconfig"; sourceTree = "<group>"; };
+		762578E8F465332B78034AC8 /* Pods_Social_Connecting_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Social_Connecting_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1DC584B55AB3AE121067291 /* Pods-Social Connecting App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Social Connecting App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Social Connecting App/Pods-Social Connecting App.release.xcconfig"; sourceTree = "<group>"; };
-		B720B2D91DDAE33E00EED705 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		B72D1DA41E2C1DB5001AA343 /* OpenSocialPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenSocialPageViewController.swift; sourceTree = "<group>"; };
+		B7104AFE2057B10300F4BBD6 /* APIcalls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIcalls.swift; sourceTree = "<group>"; };
+		B71FE04C212116D300040368 /* infoInputViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = infoInputViewViewController.swift; sourceTree = "<group>"; };
+		B720B2D91DDAE33E00EED705 /* UserProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
+		B72CC3761EA8925900EAC594 /* Social Connecting App-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Social Connecting App-Bridging-Header.h"; sourceTree = "<group>"; };
+		B72CC3771EA8925A00EAC594 /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		B72CC3781EA8925A00EAC594 /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
 		B73025F61E3487D70080724C /* OpenSocialPageViewControllerWebKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenSocialPageViewControllerWebKit.swift; sourceTree = "<group>"; };
+		B73EA7401F17A6EA00016D59 /* SocialAddCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialAddCollectionView.swift; sourceTree = "<group>"; };
+		B73EA7421F17A7B600016D59 /* SocialMediaCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialMediaCollectionCell.swift; sourceTree = "<group>"; };
+		B74082FF1EF494070089DEA0 /* CustomizableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomizableButton.swift; sourceTree = "<group>"; };
+		B75647B020321E5300141D48 /* CenterCellCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CenterCellCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
 		B759C5111DC32C7500538686 /* Social Connecting App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Social Connecting App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B759C5141DC32C7500538686 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B759C51D1DC32C7500538686 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -63,8 +93,13 @@
 		B759C5341DC32C7500538686 /* Social Connecting AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Social Connecting AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B759C5381DC32C7500538686 /* Social_Connecting_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Social_Connecting_AppUITests.swift; sourceTree = "<group>"; };
 		B759C53A1DC32C7500538686 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B772BD4B1E275BAE0039FBFE /* AddAccountsTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddAccountsTableController.swift; sourceTree = "<group>"; };
+		B775553720CDAA6900308096 /* linkedin-sdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "linkedin-sdk.framework"; path = "../../../Downloads/li-ios-sdk-1.0.7-release/linkedin-sdk.framework"; sourceTree = "<group>"; };
+		B78F79ED210BA23600820701 /* cardInfoInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardInfoInput.swift; sourceTree = "<group>"; };
+		B795F56A1E7639BC0055D3DD /* CodeReaderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeReaderViewController.swift; sourceTree = "<group>"; };
+		B795F56C1E76DF3D0055D3DD /* SliderHandlerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderHandlerViewController.swift; sourceTree = "<group>"; };
 		B7C0E1451DE3BEBD00830FC8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B7CC07F11F2FD75B00631E40 /* SocialInfoBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialInfoBrain.swift; sourceTree = "<group>"; };
+		B7F7A2EF20105B6A0086F940 /* SliderCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderCollectionViewCell.swift; sourceTree = "<group>"; };
 		B7F9F07B1DDAD30100677807 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		B7F9F07D1DDAD32700677807 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		B7F9F07F1DDAD33500677807 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
@@ -73,8 +108,13 @@
 		B7F9F0851DDAD36200677807 /* RecentsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecentsViewController.swift; sourceTree = "<group>"; };
 		B7F9F0871DDAD36F00677807 /* ScanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanViewController.swift; sourceTree = "<group>"; };
 		B7F9F0891DDAD37C00677807 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		B7FD2C681EF264C200CF7B68 /* NetworkSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkSettings.swift; sourceTree = "<group>"; };
+		B7FD2C6A1EF2698300CF7B68 /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		B7FD2C6C1EF2784100CF7B68 /* SCAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCAlertView.swift; sourceTree = "<group>"; };
+		B7FD2C6E1EF2786700CF7B68 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		B7FD2C721EF279B700CF7B68 /* CustomizableTextfield.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomizableTextfield.swift; sourceTree = "<group>"; };
+		B7FD2C741EF282C400CF7B68 /* CustomizableImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomizableImageView.swift; sourceTree = "<group>"; };
 		BC2AF64DED0ECB164E6494D7 /* Pods-Social Connecting App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Social Connecting App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Social Connecting App/Pods-Social Connecting App.debug.xcconfig"; sourceTree = "<group>"; };
-		FBF4D572B1BE70439B004314 /* libPods-Social Connecting App.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Social Connecting App.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +122,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CE438C36BA0934CB7D79446 /* libPods-Social Connecting App.a in Frameworks */,
+				975DD73A710B5BBE1CBA085E /* Pods_Social_Connecting_App.framework in Frameworks */,
+				B775553820CDAA6900308096 /* linkedin-sdk.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +131,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE1A1937803D45333E81143B /* Pods_Social_Connecting_AppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,6 +150,8 @@
 			children = (
 				BC2AF64DED0ECB164E6494D7 /* Pods-Social Connecting App.debug.xcconfig */,
 				B1DC584B55AB3AE121067291 /* Pods-Social Connecting App.release.xcconfig */,
+				2E91239F284DBB250078FB5D /* Pods-Social Connecting AppTests.debug.xcconfig */,
+				39F45547E9CF49362D8D78D0 /* Pods-Social Connecting AppTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -115,14 +159,32 @@
 		3DFC9CC02D2FD602BB7D0A97 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FBF4D572B1BE70439B004314 /* libPods-Social Connecting App.a */,
+				06D212BEF8B508FB5044D991 /* Pods_Social_Connecting_App.framework */,
+				762578E8F465332B78034AC8 /* Pods_Social_Connecting_AppTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B731C85D1F2A9534004D57C7 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				B78F79EC210B8F8100820701 /* AddInfo */,
+				B795F56C1E76DF3D0055D3DD /* SliderHandlerViewController.swift */,
+				B75647B020321E5300141D48 /* CenterCellCollectionViewFlowLayout.swift */,
+				B720B2D91DDAE33E00EED705 /* UserProfileViewController.swift */,
+				B7F7A2EF20105B6A0086F940 /* SliderCollectionViewCell.swift */,
+				B795F56A1E7639BC0055D3DD /* CodeReaderViewController.swift */,
+				B7F9F0831DDAD35300677807 /* SearchViewController.swift */,
+				B7F9F0871DDAD36F00677807 /* ScanViewController.swift */,
+				B7F9F0851DDAD36200677807 /* RecentsViewController.swift */,
+			);
+			name = HomeView;
 			sourceTree = "<group>";
 		};
 		B759C5081DC32C7500538686 = {
 			isa = PBXGroup;
 			children = (
+				B775553720CDAA6900308096 /* linkedin-sdk.framework */,
 				B759C5131DC32C7500538686 /* Social Connecting App */,
 				B759C52C1DC32C7500538686 /* Social Connecting AppTests */,
 				B759C5371DC32C7500538686 /* Social Connecting AppUITests */,
@@ -146,13 +208,14 @@
 			isa = PBXGroup;
 			children = (
 				B759C5141DC32C7500538686 /* AppDelegate.swift */,
+				B7FD2C671EF264A600CF7B68 /* Models */,
 				B7F9F08D1DDAD3B800677807 /* Workings */,
-				B7F9F08C1DDAD39D00677807 /* SignIn */,
+				B7F9F08C1DDAD39D00677807 /* SignIn Files */,
 				B759C51C1DC32C7500538686 /* Main.storyboard */,
 				B759C5211DC32C7500538686 /* LaunchScreen.storyboard */,
-				B759C51F1DC32C7500538686 /* Assets.xcassets */,
 				B759C5241DC32C7500538686 /* Info.plist */,
 				B7C0E1451DE3BEBD00830FC8 /* GoogleService-Info.plist */,
+				B759C51F1DC32C7500538686 /* Assets.xcassets */,
 			);
 			path = "Social Connecting App";
 			sourceTree = "<group>";
@@ -175,7 +238,18 @@
 			path = "Social Connecting AppUITests";
 			sourceTree = "<group>";
 		};
-		B7F9F08C1DDAD39D00677807 /* SignIn */ = {
+		B78F79EC210B8F8100820701 /* AddInfo */ = {
+			isa = PBXGroup;
+			children = (
+				B73EA7401F17A6EA00016D59 /* SocialAddCollectionView.swift */,
+				B73EA7421F17A7B600016D59 /* SocialMediaCollectionCell.swift */,
+				B78F79ED210BA23600820701 /* cardInfoInput.swift */,
+				B71FE04C212116D300040368 /* infoInputViewViewController.swift */,
+			);
+			name = AddInfo;
+			sourceTree = "<group>";
+		};
+		B7F9F08C1DDAD39D00677807 /* SignIn Files */ = {
 			isa = PBXGroup;
 			children = (
 				B7F9F07B1DDAD30100677807 /* LoginViewController.swift */,
@@ -183,22 +257,44 @@
 				B7F9F07D1DDAD32700677807 /* SignUpViewController.swift */,
 				B7F9F0811DDAD34400677807 /* SignUpSecondViewController.swift */,
 			);
-			name = SignIn;
+			name = "SignIn Files";
 			sourceTree = "<group>";
 		};
 		B7F9F08D1DDAD3B800677807 /* Workings */ = {
 			isa = PBXGroup;
 			children = (
-				B720B2D91DDAE33E00EED705 /* FirstViewController.swift */,
-				B7F9F0831DDAD35300677807 /* SearchViewController.swift */,
-				B7F9F0851DDAD36200677807 /* RecentsViewController.swift */,
-				B7F9F0871DDAD36F00677807 /* ScanViewController.swift */,
+				B72CC3771EA8925A00EAC594 /* iCarousel.h */,
+				B72CC3781EA8925A00EAC594 /* iCarousel.m */,
+				B72CC3761EA8925900EAC594 /* Social Connecting App-Bridging-Header.h */,
+				B731C85D1F2A9534004D57C7 /* HomeView */,
 				B7F9F0891DDAD37C00677807 /* SettingViewController.swift */,
-				B772BD4B1E275BAE0039FBFE /* AddAccountsTableController.swift */,
-				B72D1DA41E2C1DB5001AA343 /* OpenSocialPageViewController.swift */,
 				B73025F61E3487D70080724C /* OpenSocialPageViewControllerWebKit.swift */,
 			);
 			name = Workings;
+			sourceTree = "<group>";
+		};
+		B7FD2C671EF264A600CF7B68 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B7FD2C701EF2799D00CF7B68 /* Customizables */,
+				B7FD2C681EF264C200CF7B68 /* NetworkSettings.swift */,
+				B7CC07F11F2FD75B00631E40 /* SocialInfoBrain.swift */,
+				B7FD2C6A1EF2698300CF7B68 /* UserModel.swift */,
+				B7FD2C6C1EF2784100CF7B68 /* SCAlertView.swift */,
+				B7FD2C6E1EF2786700CF7B68 /* Extensions.swift */,
+				B7104AFE2057B10300F4BBD6 /* APIcalls.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		B7FD2C701EF2799D00CF7B68 /* Customizables */ = {
+			isa = PBXGroup;
+			children = (
+				B7FD2C721EF279B700CF7B68 /* CustomizableTextfield.swift */,
+				B7FD2C741EF282C400CF7B68 /* CustomizableImageView.swift */,
+				B74082FF1EF494070089DEA0 /* CustomizableButton.swift */,
+			);
+			name = Customizables;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +325,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B759C5401DC32C7500538686 /* Build configuration list for PBXNativeTarget "Social Connecting AppTests" */;
 			buildPhases = (
+				06F21B97828B8E79500E98A6 /* [CP] Check Pods Manifest.lock */,
 				B759C5251DC32C7500538686 /* Sources */,
 				B759C5261DC32C7500538686 /* Frameworks */,
 				B759C5271DC32C7500538686 /* Resources */,
+				6B3684378220C6B1DF252AE4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -268,18 +366,22 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Akash Dharamshi";
 				TargetAttributes = {
 					B759C5101DC32C7500538686 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 6WTWZ4GP94;
+						LastSwiftMigration = 0830;
 					};
 					B759C5281DC32C7500538686 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0830;
 						TestTargetID = B759C5101DC32C7500538686;
 					};
 					B759C5331DC32C7500538686 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0830;
 						TestTargetID = B759C5101DC32C7500538686;
 					};
 				};
@@ -333,15 +435,108 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		06F21B97828B8E79500E98A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Social Connecting AppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B3684378220C6B1DF252AE4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Social Connecting AppTests/Pods-Social Connecting AppTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac-Defines-NSData+zlib/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Social Connecting AppTests/Pods-Social Connecting AppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		8E9A54D5BE485CA100BD07DC /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Social Connecting App/Pods-Social Connecting App-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/CDYelpFusionKit/CDYelpFusionKit.framework",
+				"${BUILT_PRODUCTS_DIR}/CenteredCollectionView/CenteredCollectionView.framework",
+				"${BUILT_PRODUCTS_DIR}/EFQRCode/EFQRCode.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookLogin/FacebookLogin.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookShare/FacebookShare.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleAPIClientForREST/GoogleAPIClientForREST.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac-f0850809/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/IOSLinkedInAPIFix/IOSLinkedInAPIFix.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/LinkedinSwift/LinkedinSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/PinterestSDK/PinterestSDK.framework",
+				"${BUILT_PRODUCTS_DIR}/QRCode/QRCode.framework",
+				"${BUILT_PRODUCTS_DIR}/SSKeychain/SSKeychain.framework",
+				"${BUILT_PRODUCTS_DIR}/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CDYelpFusionKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CenteredCollectionView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EFQRCode.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookLogin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookShare.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleAPIClientForREST.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IOSLinkedInAPIFix.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LinkedinSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PinterestSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QRCode.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SSKeychain.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SkyFloatingLabelTextField.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -367,13 +562,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Social Connecting App-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F1A22D4047D2ECA5D70E2D43 /* [CP] Copy Pods Resources */ = {
@@ -382,9 +580,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Social Connecting App/Pods-Social Connecting App-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -398,18 +599,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7F7A2F020105B6A0086F940 /* SliderCollectionViewCell.swift in Sources */,
+				B75647B120321E5300141D48 /* CenterCellCollectionViewFlowLayout.swift in Sources */,
+				B7FD2C751EF282C400CF7B68 /* CustomizableImageView.swift in Sources */,
 				B7F9F0821DDAD34400677807 /* SignUpSecondViewController.swift in Sources */,
 				B7F9F08A1DDAD37C00677807 /* SettingViewController.swift in Sources */,
+				B7FD2C6D1EF2784100CF7B68 /* SCAlertView.swift in Sources */,
+				B795F56D1E76DF3D0055D3DD /* SliderHandlerViewController.swift in Sources */,
+				B71FE04D212116D300040368 /* infoInputViewViewController.swift in Sources */,
 				B7F9F07C1DDAD30100677807 /* LoginViewController.swift in Sources */,
-				B720B2DA1DDAE33E00EED705 /* FirstViewController.swift in Sources */,
+				B720B2DA1DDAE33E00EED705 /* UserProfileViewController.swift in Sources */,
 				B73025F71E3487D70080724C /* OpenSocialPageViewControllerWebKit.swift in Sources */,
+				B795F56B1E7639BC0055D3DD /* CodeReaderViewController.swift in Sources */,
+				B7FD2C691EF264C200CF7B68 /* NetworkSettings.swift in Sources */,
 				B7F9F0841DDAD35300677807 /* SearchViewController.swift in Sources */,
-				B772BD4C1E275BAE0039FBFE /* AddAccountsTableController.swift in Sources */,
-				B72D1DA51E2C1DB5001AA343 /* OpenSocialPageViewController.swift in Sources */,
+				B7CC07F21F2FD75B00631E40 /* SocialInfoBrain.swift in Sources */,
+				B74083001EF494070089DEA0 /* CustomizableButton.swift in Sources */,
 				B7F9F0861DDAD36200677807 /* RecentsViewController.swift in Sources */,
 				B7F9F0801DDAD33500677807 /* ForgotPasswordViewController.swift in Sources */,
+				B7FD2C731EF279B700CF7B68 /* CustomizableTextfield.swift in Sources */,
 				B7F9F0881DDAD36F00677807 /* ScanViewController.swift in Sources */,
+				B7FD2C6F1EF2786700CF7B68 /* Extensions.swift in Sources */,
+				B78F79EE210BA23600820701 /* cardInfoInput.swift in Sources */,
+				B73EA7411F17A6EA00016D59 /* SocialAddCollectionView.swift in Sources */,
+				B7104AFF2057B10300F4BBD6 /* APIcalls.swift in Sources */,
+				B7FD2C6B1EF2698300CF7B68 /* UserModel.swift in Sources */,
+				B72CC3791EA8925A00EAC594 /* iCarousel.m in Sources */,
 				B759C5151DC32C7500538686 /* AppDelegate.swift in Sources */,
+				B73EA7431F17A7B600016D59 /* SocialMediaCollectionCell.swift in Sources */,
 				B7F9F07E1DDAD32700677807 /* SignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -479,8 +696,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -525,8 +744,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -545,6 +766,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -555,10 +777,21 @@
 			baseConfigurationReference = BC2AF64DED0ECB164E6494D7 /* Pods-Social Connecting App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 6WTWZ4GP94;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Social\\ Connecting\\ App",
+				);
 				INFOPLIST_FILE = "Social Connecting App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "AkashDharamshi.Social-Connecting-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Social Connecting App/Social Connecting App-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -567,33 +800,47 @@
 			baseConfigurationReference = B1DC584B55AB3AE121067291 /* Pods-Social Connecting App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 6WTWZ4GP94;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Social\\ Connecting\\ App",
+				);
 				INFOPLIST_FILE = "Social Connecting App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "AkashDharamshi.Social-Connecting-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Social Connecting App/Social Connecting App-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		B759C5411DC32C7500538686 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E91239F284DBB250078FB5D /* Pods-Social Connecting AppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Social Connecting AppTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "AkashDharamshi.Social-Connecting-AppTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Social Connecting App.app/Social Connecting App";
 			};
 			name = Debug;
 		};
 		B759C5421DC32C7500538686 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39F45547E9CF49362D8D78D0 /* Pods-Social Connecting AppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Social Connecting AppTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "AkashDharamshi.Social-Connecting-AppTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Social Connecting App.app/Social Connecting App";
 			};
 			name = Release;
@@ -605,6 +852,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "AkashDharamshi.Social-Connecting-AppUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "Social Connecting App";
 			};
 			name = Debug;
@@ -616,6 +864,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "AkashDharamshi.Social-Connecting-AppUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "Social Connecting App";
 			};
 			name = Release;
